@@ -1,6 +1,8 @@
 package images
 
 import (
+	"reflect"
+
 	"github.com/mitchellh/mapstructure"
 	"github.com/rackspace/gophercloud"
 	"github.com/rackspace/gophercloud/pagination"
@@ -46,6 +48,8 @@ type Image struct {
 	Status   string
 
 	Updated string
+
+	Metadata map[string]interface{}
 }
 
 // ImagePage contains a single page of results from a List operation.
@@ -85,6 +89,23 @@ func ExtractImages(page pagination.Page) ([]Image, error) {
 		Images []Image `mapstructure:"images"`
 	}
 
-	err := mapstructure.Decode(casted, &results)
+	config := &mapstructure.DecoderConfig{
+		DecodeHook: toMapFromString,
+		Result:     &results,
+	}
+	decoder, err := mapstructure.NewDecoder(config)
+	if err != nil {
+		return nil, err
+	}
+
+	err = decoder.Decode(casted)
+
 	return results.Images, err
+}
+
+func toMapFromString(from reflect.Kind, to reflect.Kind, data interface{}) (interface{}, error) {
+	if (from == reflect.String) && (to == reflect.Map) {
+		return map[string]interface{}{}, nil
+	}
+	return data, nil
 }
