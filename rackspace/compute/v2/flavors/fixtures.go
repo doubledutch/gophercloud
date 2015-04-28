@@ -3,7 +3,7 @@
 package flavors
 
 import (
-	os "github.com/rackspace/gophercloud/openstack/compute/v2/flavors"
+	os "github.com/doubledutch/gophercloud/openstack/compute/v2/flavors"
 )
 
 // ListOutput is a sample response of a flavor List request.

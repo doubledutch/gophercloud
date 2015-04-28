@@ -3,8 +3,8 @@ package networks
 import (
 	"errors"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/pagination"
 )
 
 // List returns a Pager which allows you to iterate over a collection of

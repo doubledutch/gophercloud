@@ -1,3 +1,8 @@
+# FORK
+
+This fork is temporarily until https://github.com/rackspace/gophercloud/pull/413
+(or similar) is merged
+
 # Gophercloud: the OpenStack SDK for Go
 [![Build Status](https://travis-ci.org/rackspace/gophercloud.svg?branch=master)](https://travis-ci.org/rackspace/gophercloud)
 
@@ -10,7 +15,7 @@ documentation, unit tests and acceptance tests.
 ## Useful links
 
 * [Gophercloud homepage](http://gophercloud.io)
-* [Reference documentation](http://godoc.org/github.com/rackspace/gophercloud)
+* [Reference documentation](http://godoc.org/github.com/doubledutch/gophercloud)
 * [Getting started guides](http://gophercloud.io/docs)
 * [Effective Go](https://golang.org/doc/effective_go.html)
 
@@ -30,9 +35,9 @@ your projects, such as [godep](https://github.com/tools/godep). Once this is set
 Gophercloud as a dependency like so:
 
 ```bash
-go get github.com/rackspace/gophercloud
+go get github.com/doubledutch/gophercloud
 
-# Edit your code to import relevant packages from "github.com/rackspace/gophercloud"
+# Edit your code to import relevant packages from "github.com/doubledutch/gophercloud"
 
 godep save ./...
 ```
@@ -73,9 +78,9 @@ explicitly, or tell Gophercloud to use environment variables:
 
 ```go
 import (
-  "github.com/rackspace/gophercloud"
-  "github.com/rackspace/gophercloud/openstack"
-  "github.com/rackspace/gophercloud/openstack/utils"
+  "github.com/doubledutch/gophercloud"
+  "github.com/doubledutch/gophercloud/openstack"
+  "github.com/doubledutch/gophercloud/openstack/utils"
 )
 
 // Option 1: Pass in the values yourself
@@ -119,7 +124,7 @@ in the flavor ID (hardware specification) and image ID (operating system) we're
 interested in:
 
 ```go
-import "github.com/rackspace/gophercloud/openstack/compute/v2/servers"
+import "github.com/doubledutch/gophercloud/openstack/compute/v2/servers"
 
 server, err := servers.Create(client, servers.CreateOpts{
   Name:      "My new server!",
@@ -132,7 +137,7 @@ If you are unsure about what images and flavors are, you can read our [Compute
 Getting Started guide](http://gophercloud.io/docs/compute). The above code
 sample creates a new server with the parameters, and embodies the new resource
 in the `server` variable (a
-[`servers.Server`](http://godoc.org/github.com/rackspace/gophercloud) struct).
+[`servers.Server`](http://godoc.org/github.com/doubledutch/gophercloud) struct).
 
 ### Next steps
 

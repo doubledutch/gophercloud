@@ -1,6 +1,6 @@
 package volumeattach
 
-import "github.com/rackspace/gophercloud"
+import "github.com/doubledutch/gophercloud"
 
 const resourcePath = "os-volume_attachments"
 

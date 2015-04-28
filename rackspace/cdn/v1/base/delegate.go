@@ -1,9 +1,9 @@
 package base
 
 import (
-	"github.com/rackspace/gophercloud"
+	"github.com/doubledutch/gophercloud"
 
-	os "github.com/rackspace/gophercloud/openstack/cdn/v1/base"
+	os "github.com/doubledutch/gophercloud/openstack/cdn/v1/base"
 )
 
 // Get retrieves the home document, allowing the user to discover the

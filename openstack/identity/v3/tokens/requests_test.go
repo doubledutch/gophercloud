@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/testhelper"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/testhelper"
 )
 
 // authTokenPost verifies that providing certain AuthOptions and Scope results in an expected JSON structure.

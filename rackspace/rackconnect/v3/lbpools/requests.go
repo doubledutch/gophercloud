@@ -1,8 +1,8 @@
 package lbpools
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/pagination"
 )
 
 // List returns all load balancer pools that are associated with RackConnect.

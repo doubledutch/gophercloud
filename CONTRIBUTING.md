@@ -16,7 +16,7 @@ way than just downloading it. Here are the basic installation instructions:
 2. Move into the directory that houses your local repository:
 
    ```bash
-   cd ${GOPATH}/src/github.com/rackspace/gophercloud
+   cd ${GOPATH}/src/github.com/doubledutch/gophercloud
    ```
 
 3. Fork the `rackspace/gophercloud` repository and update your remote refs. You
@@ -69,7 +69,7 @@ process of testing expectations with assertions:
 import (
   "testing"
 
-  "github.com/rackspace/gophercloud/testhelper"
+  "github.com/doubledutch/gophercloud/testhelper"
 )
 
 func TestSomething(t *testing.T) {
@@ -95,8 +95,8 @@ Here is a truncated example of mocked HTTP responses:
 import (
 	"testing"
 
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	th "github.com/doubledutch/gophercloud/testhelper"
+	fake "github.com/doubledutch/gophercloud/testhelper/client"
 )
 
 func TestGet(t *testing.T) {
@@ -219,7 +219,7 @@ are:
 
 If you want to start fixing open bugs, we'd really appreciate that! Bug fixing
 is central to any project. The best way to get started is by heading to our
-[bug tracker](https://github.com/rackspace/gophercloud/issues) and finding open
+[bug tracker](https://github.com/doubledutch/gophercloud/issues) and finding open
 bugs that you think nobody is working on. It might be useful to comment on the
 thread to see the current state of the issue and if anybody has made any
 breakthroughs on it so far.

@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/doubledutch/gophercloud"
 )
 
 var (

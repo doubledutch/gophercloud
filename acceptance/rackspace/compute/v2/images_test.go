@@ -5,9 +5,9 @@ package v2
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/compute/v2/images"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/doubledutch/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud/rackspace/compute/v2/images"
+	th "github.com/doubledutch/gophercloud/testhelper"
 )
 
 func TestListImages(t *testing.T) {

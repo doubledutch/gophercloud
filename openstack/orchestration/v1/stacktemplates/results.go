@@ -2,7 +2,7 @@ package stacktemplates
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
+	"github.com/doubledutch/gophercloud"
 )
 
 // Template represents a stack template.

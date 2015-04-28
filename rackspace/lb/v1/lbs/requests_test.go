@@ -4,14 +4,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/nodes"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/sessions"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/throttle"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/vips"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud/rackspace/lb/v1/nodes"
+	"github.com/doubledutch/gophercloud/rackspace/lb/v1/sessions"
+	"github.com/doubledutch/gophercloud/rackspace/lb/v1/throttle"
+	"github.com/doubledutch/gophercloud/rackspace/lb/v1/vips"
+	th "github.com/doubledutch/gophercloud/testhelper"
+	"github.com/doubledutch/gophercloud/testhelper/client"
 )
 
 const (

@@ -5,9 +5,9 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/rackspace"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/rackspace"
+	th "github.com/doubledutch/gophercloud/testhelper"
 )
 
 func newClient(t *testing.T) *gophercloud.ServiceClient {

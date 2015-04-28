@@ -1,6 +1,6 @@
 package roles
 
-import "github.com/rackspace/gophercloud"
+import "github.com/doubledutch/gophercloud"
 
 const (
 	ExtPath  = "OS-KSADM"

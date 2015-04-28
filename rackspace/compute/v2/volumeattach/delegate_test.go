@@ -3,10 +3,10 @@ package volumeattach
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/compute/v2/extensions/volumeattach"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	os "github.com/doubledutch/gophercloud/openstack/compute/v2/extensions/volumeattach"
+	"github.com/doubledutch/gophercloud/pagination"
+	th "github.com/doubledutch/gophercloud/testhelper"
+	"github.com/doubledutch/gophercloud/testhelper/client"
 )
 
 func TestList(t *testing.T) {

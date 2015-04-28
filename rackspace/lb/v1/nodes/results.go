@@ -2,8 +2,8 @@ package nodes
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/pagination"
 )
 
 // Node represents a back-end device, usually a virtual machine, that can

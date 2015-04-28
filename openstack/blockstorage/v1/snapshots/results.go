@@ -1,8 +1,8 @@
 package snapshots
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/pagination"
 
 	"github.com/mitchellh/mapstructure"
 )

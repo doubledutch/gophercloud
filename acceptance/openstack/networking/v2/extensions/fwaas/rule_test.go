@@ -5,10 +5,10 @@ package fwaas
 import (
 	"testing"
 
-	base "github.com/rackspace/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	base "github.com/doubledutch/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/doubledutch/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
+	"github.com/doubledutch/gophercloud/pagination"
+	th "github.com/doubledutch/gophercloud/testhelper"
 )
 
 func TestFirewallRules(t *testing.T) {

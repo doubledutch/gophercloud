@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/doubledutch/gophercloud"
+	th "github.com/doubledutch/gophercloud/testhelper"
+	fake "github.com/doubledutch/gophercloud/testhelper/client"
 )
 
 // CreateExpected represents the expected object from a Create request.

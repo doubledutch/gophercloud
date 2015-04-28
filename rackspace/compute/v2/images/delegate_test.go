@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/doubledutch/gophercloud/pagination"
+	th "github.com/doubledutch/gophercloud/testhelper"
+	"github.com/doubledutch/gophercloud/testhelper/client"
 )
 
 func TestListImageDetails(t *testing.T) {

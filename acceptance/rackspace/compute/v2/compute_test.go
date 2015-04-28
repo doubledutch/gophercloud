@@ -6,9 +6,9 @@ import (
 	"errors"
 	"os"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/rackspace"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/acceptance/tools"
+	"github.com/doubledutch/gophercloud/rackspace"
 )
 
 func newClient() (*gophercloud.ServiceClient, error) {

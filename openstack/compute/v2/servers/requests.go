@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the
@@ -764,5 +764,5 @@ func CreateImage(client *gophercloud.ServiceClient, serverId string, opts Create
 	})
 	res.Err = err
 	res.Header = response.Header
-	return res	
+	return res
 }

@@ -3,10 +3,10 @@ package stacks
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/orchestration/v1/stacks"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	os "github.com/doubledutch/gophercloud/openstack/orchestration/v1/stacks"
+	"github.com/doubledutch/gophercloud/pagination"
+	th "github.com/doubledutch/gophercloud/testhelper"
+	fake "github.com/doubledutch/gophercloud/testhelper/client"
 )
 
 func TestCreateStack(t *testing.T) {

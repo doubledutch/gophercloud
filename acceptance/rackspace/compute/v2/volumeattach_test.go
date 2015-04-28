@@ -6,17 +6,17 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/openstack"
-	osVolumes "github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumes"
-	osVolumeAttach "github.com/rackspace/gophercloud/openstack/compute/v2/extensions/volumeattach"
-	osServers "github.com/rackspace/gophercloud/openstack/compute/v2/servers"
-	"github.com/rackspace/gophercloud/rackspace"
-	"github.com/rackspace/gophercloud/rackspace/blockstorage/v1/volumes"
-	"github.com/rackspace/gophercloud/rackspace/compute/v2/servers"
-	"github.com/rackspace/gophercloud/rackspace/compute/v2/volumeattach"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/acceptance/tools"
+	"github.com/doubledutch/gophercloud/openstack"
+	osVolumes "github.com/doubledutch/gophercloud/openstack/blockstorage/v1/volumes"
+	osVolumeAttach "github.com/doubledutch/gophercloud/openstack/compute/v2/extensions/volumeattach"
+	osServers "github.com/doubledutch/gophercloud/openstack/compute/v2/servers"
+	"github.com/doubledutch/gophercloud/rackspace"
+	"github.com/doubledutch/gophercloud/rackspace/blockstorage/v1/volumes"
+	"github.com/doubledutch/gophercloud/rackspace/compute/v2/servers"
+	"github.com/doubledutch/gophercloud/rackspace/compute/v2/volumeattach"
+	th "github.com/doubledutch/gophercloud/testhelper"
 )
 
 func newBlockClient(t *testing.T) (*gophercloud.ServiceClient, error) {

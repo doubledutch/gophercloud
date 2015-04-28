@@ -1,6 +1,6 @@
 package bulk
 
-import "github.com/rackspace/gophercloud"
+import "github.com/doubledutch/gophercloud"
 
 func deleteURL(c *gophercloud.ServiceClient) string {
 	return c.Endpoint + "?bulk-delete"

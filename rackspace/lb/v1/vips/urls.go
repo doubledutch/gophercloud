@@ -3,7 +3,7 @@ package vips
 import (
 	"strconv"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/doubledutch/gophercloud"
 )
 
 const (

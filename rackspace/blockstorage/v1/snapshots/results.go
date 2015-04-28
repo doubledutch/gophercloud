@@ -1,9 +1,9 @@
 package snapshots
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/blockstorage/v1/snapshots"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud"
+	os "github.com/doubledutch/gophercloud/openstack/blockstorage/v1/snapshots"
+	"github.com/doubledutch/gophercloud/pagination"
 
 	"github.com/mitchellh/mapstructure"
 )
