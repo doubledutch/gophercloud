@@ -1,6 +1,6 @@
 package defsecrules
 
-import "github.com/rackspace/gophercloud"
+import "github.com/doubledutch/gophercloud"
 
 const rulepath = "os-security-group-default-rules"
 

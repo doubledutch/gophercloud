@@ -6,13 +6,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/openstack"
-	"github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumes"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/extensions/volumeattach"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/servers"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/acceptance/tools"
+	"github.com/doubledutch/gophercloud/openstack"
+	"github.com/doubledutch/gophercloud/openstack/blockstorage/v1/volumes"
+	"github.com/doubledutch/gophercloud/openstack/compute/v2/extensions/volumeattach"
+	"github.com/doubledutch/gophercloud/openstack/compute/v2/servers"
+	th "github.com/doubledutch/gophercloud/testhelper"
 )
 
 func newBlockClient(t *testing.T) (*gophercloud.ServiceClient, error) {

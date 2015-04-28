@@ -3,9 +3,9 @@ package volumes
 import (
 	"fmt"
 
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumes"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud"
+	os "github.com/doubledutch/gophercloud/openstack/blockstorage/v1/volumes"
+	"github.com/doubledutch/gophercloud/pagination"
 )
 
 type CreateOpts struct {

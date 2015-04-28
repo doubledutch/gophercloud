@@ -3,7 +3,7 @@ package cdncontainers
 import (
 	"strconv"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/doubledutch/gophercloud"
 )
 
 // EnableOptsBuilder allows extensions to add additional parameters to the Enable

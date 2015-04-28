@@ -5,8 +5,8 @@ package v2
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/extensions/servergroups"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/openstack/compute/v2/extensions/servergroups"
 )
 
 func createServerGroup(t *testing.T, computeClient *gophercloud.ServiceClient) (*servergroups.ServerGroup, error) {

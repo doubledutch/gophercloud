@@ -3,7 +3,7 @@ package throttle
 import (
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/doubledutch/gophercloud"
 )
 
 // ConnectionThrottle represents the connection throttle configuration for a

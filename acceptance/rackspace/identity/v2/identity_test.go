@@ -5,10 +5,10 @@ package v2
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/rackspace"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/acceptance/tools"
+	"github.com/doubledutch/gophercloud/rackspace"
+	th "github.com/doubledutch/gophercloud/testhelper"
 )
 
 func rackspaceAuthOptions(t *testing.T) gophercloud.AuthOptions {

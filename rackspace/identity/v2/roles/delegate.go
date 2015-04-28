@@ -1,10 +1,10 @@
 package roles
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/pagination"
 
-	os "github.com/rackspace/gophercloud/openstack/identity/v2/extensions/admin/roles"
+	os "github.com/doubledutch/gophercloud/openstack/identity/v2/extensions/admin/roles"
 )
 
 // List is the operation responsible for listing all available global roles

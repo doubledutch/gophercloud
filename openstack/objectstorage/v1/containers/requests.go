@@ -1,8 +1,8 @@
 package containers
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the List

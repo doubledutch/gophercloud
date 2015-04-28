@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/doubledutch/gophercloud"
 )
 
 // DeleteOptsBuilder allows extensions to add additional parameters to the

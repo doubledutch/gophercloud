@@ -1,7 +1,7 @@
 package objects
 
 import (
-	"github.com/rackspace/gophercloud"
+	"github.com/doubledutch/gophercloud"
 )
 
 func listURL(c *gophercloud.ServiceClient, container string) string {

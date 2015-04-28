@@ -1,9 +1,9 @@
 package extensions
 
 import (
-	"github.com/rackspace/gophercloud"
-	common "github.com/rackspace/gophercloud/openstack/common/extensions"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud"
+	common "github.com/doubledutch/gophercloud/openstack/common/extensions"
+	"github.com/doubledutch/gophercloud/pagination"
 )
 
 // Extension is a single OpenStack extension.

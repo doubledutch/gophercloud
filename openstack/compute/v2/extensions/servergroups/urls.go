@@ -1,6 +1,6 @@
 package servergroups
 
-import "github.com/rackspace/gophercloud"
+import "github.com/doubledutch/gophercloud"
 
 const resourcePath = "os-server-groups"
 

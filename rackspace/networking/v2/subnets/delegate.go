@@ -1,9 +1,9 @@
 package subnets
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/networking/v2/subnets"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud"
+	os "github.com/doubledutch/gophercloud/openstack/networking/v2/subnets"
+	"github.com/doubledutch/gophercloud/pagination"
 )
 
 // List returns a Pager which allows you to iterate over a collection of

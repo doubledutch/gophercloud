@@ -5,14 +5,14 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/acl"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/monitors"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/nodes"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/sessions"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/throttle"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/vips"
+	"github.com/doubledutch/gophercloud"
+	"github.com/doubledutch/gophercloud/pagination"
+	"github.com/doubledutch/gophercloud/rackspace/lb/v1/acl"
+	"github.com/doubledutch/gophercloud/rackspace/lb/v1/monitors"
+	"github.com/doubledutch/gophercloud/rackspace/lb/v1/nodes"
+	"github.com/doubledutch/gophercloud/rackspace/lb/v1/sessions"
+	"github.com/doubledutch/gophercloud/rackspace/lb/v1/throttle"
+	"github.com/doubledutch/gophercloud/rackspace/lb/v1/vips"
 )
 
 var (

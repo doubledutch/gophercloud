@@ -5,10 +5,10 @@ package v1
 import (
 	"testing"
 
-	osContainers "github.com/rackspace/gophercloud/openstack/objectstorage/v1/containers"
-	"github.com/rackspace/gophercloud/pagination"
-	raxContainers "github.com/rackspace/gophercloud/rackspace/objectstorage/v1/containers"
-	th "github.com/rackspace/gophercloud/testhelper"
+	osContainers "github.com/doubledutch/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/doubledutch/gophercloud/pagination"
+	raxContainers "github.com/doubledutch/gophercloud/rackspace/objectstorage/v1/containers"
+	th "github.com/doubledutch/gophercloud/testhelper"
 )
 
 func TestContainers(t *testing.T) {
